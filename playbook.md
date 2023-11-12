@@ -12,13 +12,13 @@
 
 ### Interesting Services/Ports
 
-- smb - port 139
+- smb - port 139/137/445/138
 - http - port 80/8080/8000
 - ssl/https - port 443
 
 ## Site?
 
-- slaces of input
+- Places of input
 - cross-site scripting vulns
 - sql injection
 - robots.txt

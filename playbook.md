@@ -3,6 +3,10 @@
 - nmap
 - gobuster
 - nikto
+- metasploit Auxilary
+- version information
+- enumerate ssh
+- enumerate smb
 
 ## NMAP
 
@@ -20,8 +24,26 @@
 - robots.txt
 - source code
 
+## SSH
+
+- ex: ssh 255.255.255.255 -oKexAlgorithms=+diffe-hellman-group1-sha1 -c aes128
+- banner might be exposed after connection
+
+## Metasploit
+
+- info - give info of a module
+- use {number/directory path} - use a specified module
+- options - gives the options of a specified module
+- set {option of module} {value} - sets a value to specified option in a module
+- run - runs the module
+
 ### Source Code
 
 - comments
 - javascript
 - javascript sources
+
+# Exploitation
+ 
+- smbclient - ex: smbclient -L \\255.255.255.255\\ADMIN$ - can use linux-like commands
+- msfvenom

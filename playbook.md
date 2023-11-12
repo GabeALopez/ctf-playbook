@@ -7,6 +7,7 @@
 - version information
 - enumerate ssh
 - enumerate smb
+- once you find an intresting port enumerate it
 
 ## NMAP
 
@@ -51,3 +52,4 @@
 - msfvenom
 - metasploit - try changing payload if the initial payload does not work
 - metasploit brute forcing on ssh - use auxilary/scanner/shh/ssh_login
+- breachparse

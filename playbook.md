@@ -36,6 +36,7 @@
 - options - gives the options of a specified module
 - set {option of module} {value} - sets a value to specified option in a module
 - run - runs the module
+- set payload {directory path} - set payload options
 
 ### Source Code
 
@@ -44,6 +45,9 @@
 - javascript sources
 
 # Exploitation
- 
+
+- hydra - for brute forcing - ex: hydra -l root -P /usr/share/wordlists/metasploit/unix_password.txt ssh://255.255.255.255:22 -t 4 -V
 - smbclient - ex: smbclient -L \\255.255.255.255\\ADMIN$ - can use linux-like commands
 - msfvenom
+- metasploit - try changing payload if the initial payload does not work
+- metasploit brute forcing on ssh - use auxilary/scanner/shh/ssh_login

@@ -14,7 +14,7 @@
 
 ## Site?
 
-- Look for places of inputs
+- Places of input
 - cross-site scripting vulns
 - sql injection
 - robots.txt

@@ -25,6 +25,13 @@
 - robots.txt
 - source code
 
+### Source Code
+
+- comments
+- javascript
+- javascript sources
+- inspect element
+
 ## SSH
 
 - ex: ssh 255.255.255.255 -oKexAlgorithms=+diffe-hellman-group1-sha1 -c aes128
@@ -38,13 +45,6 @@
 - set {option of module} {value} - sets a value to specified option in a module
 - run - runs the module
 - set payload {directory path} - set payload options
-
-### Source Code
-
-- comments
-- javascript
-- javascript sources
-- inspect element
 
 # Exploitation
 

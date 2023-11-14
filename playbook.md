@@ -44,6 +44,7 @@
 - comments
 - javascript
 - javascript sources
+- inspect element
 
 # Exploitation
 
